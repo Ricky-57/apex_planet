@@ -1,0 +1,39 @@
+Short Note on Basic CRUD Application with Authentication
+Objective:
+Develop a simple PHP web application that performs CRUD operations (Create, Read, Update, Delete) on blog posts and includes basic user authentication.
+
+1. Database Setup:
+
+Database Name: blog
+
+Tables:
+
+users (id, username, password)
+
+posts (id, title, content, created_at)
+
+2. CRUD Operations:
+
+Create: PHP form to add new posts.
+
+Read: Display all posts in a list format.
+
+Update: Edit form to update existing posts.
+
+Delete: Delete button to remove posts.
+
+3. User Authentication:
+
+Registration/Login Forms: Allow user sign-up and login.
+
+Password Security: Use password_hash() and password_verify().
+
+Session Management: Use PHP sessions ($_SESSION) to track logged-in users.
+
+Deliverables:
+
+Fully functional PHP CRUD application with user login/registration.
+
+Secure password handling and session control.
+
+MySQL database schema and PHP source code.
